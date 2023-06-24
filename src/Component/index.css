@@ -104,3 +104,15 @@ list-style: none;
 }
 
 /* Home End */
+
+/* PostDetail Start */
+.post-detail{
+    text-align: center;
+}
+.post-detail p {
+    margin-top: 30px;
+    color: gray;
+    font-style: italic;
+}
+
+/* PostDetail End */
