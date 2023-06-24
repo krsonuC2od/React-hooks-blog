@@ -1,0 +1,106 @@
+/* Navbar Start */
+*{
+    margin:0;
+    padding:0;
+    
+}
+.create-post form{
+   align-items: center;
+}
+.nav{
+    height: 40px;
+    width: 100vw;
+    background:black;
+    color: aliceblue;
+   
+}
+
+.nav-element{
+display: flex;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;
+
+}
+
+.nav-element li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+/* Navbar  End*/
+
+
+/* Create Post Start */
+.post-heading {
+    text-align: center;
+}
+/* .post-field{
+    text-align: center; 
+} */
+.post-field input{
+    width: 50vw;
+    height: 30px;
+}
+.post-field label{
+  font-size: 20px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.post-field textarea{
+    width: 50vw;
+}
+.create-post-btn{
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    color: aliceblue;
+}
+
+
+/* Create post end */
+
+
+/* Home Start */
+.home {
+    
+    margin-top: 20px;
+}
+.home h2 {
+  text-align: center;
+   font-size: 30px; 
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(85, 85, 206);
+}
+#blog-by{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    font-style: italic;
+    
+}
+
+.post  {
+    width: 50vw;
+    height: 10vh;
+    border: 1px solid gray;
+    margin-left: 25vw;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    
+}
+.post a{
+    text-decoration: none;
+    
+}
+.post h3 {
+    color: black;
+    padding: 2px;
+}
+
+/* Home End */
